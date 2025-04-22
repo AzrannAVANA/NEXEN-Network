@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+
+body{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Raleway", "Sans serif";
+
+    margin: 0px;
+}
+
+header{
+    background-color: white;
+    width: 20%;
+}
+
+#Header_Logo{
+    width: 50px;
+    height: 50px;
+}
+
+main{   
+    background-color: #272727;
+    background-repeat: repeat;
+
+    padding: 50px;
+    width: 80%;
+}
+
+footer{
+    background-color: white;
+}
+
+/* Classes */
+
+.White_Bands{
+    width: 200px;
+    padding: 10px;
+}
+
+/* Menu */
+
+#Sidebar_MainMenu{
+    display: flex;
+    
+}
+
+#Sidebar_ButtonWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Sidebar_Button{
+    color: white;
+    background-color: #707070;
+    padding: 5px;
+    border-width: 0;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+/* Core Main */
+
+#MainGrid{
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows: repeat(6, 200px);
+    gap: 25px;
+
+    justify-content: center;
+}
+
+.Core{
+    border-radius: 15px;
+    transition: all 0.3s;
+    padding: 25px;
+}
+
+.Core:hover{
+    transform: scale(1.02);
+}
+
+/* 
+.Core_1x1{
+    Empty
+}
+*/
+
+.Core_2x1{
+    grid-column: span 2;
+}
+
+.Core_1x2{
+    grid-row: span 2;
+}
+
+.Core_2x2{
+    grid-column: span 2;
+    grid-row: span 2;
+
+    padding: 25px;
+}
+
+/* Subsidiary Cores */
+
+#Test_Core1{
+    color: #ffffff;
+    background-image: url(./img/articles/fusion.jpg);
+    background-size: 350px;
+}
+
+p{
+    margin: 5px;
+}
+
+#Test_Core2{
+    color: #000;
+    background-color: #ffffff;
+}
+
+#Core2_IMG{
+    object-fit: cover;
+    resize: none;
+
+    width: 100%;
+    height: 50%;
+    border-radius: 15px;
+}
+
+#Test_Core4{
+    color: #ffffff;
+    background-color: rgb(255, 255, 255);
+    background-image: url("https://images.crazygames.com/games/jacksmith/cover-1684221283970.png?auto=format%2Ccompress&amp;q=75&amp;cs=strip&amp;ch=DPR&amp;w=564");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+
+#Test_Core3{
+    color: #181818;
+    background-color: rgb(255, 255, 255);
+    background-image: url(./img/articles/dog_orb.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.1); 
+}
+
+#Test_Core5{
+    color: #181818;
+    background-color: #ffffff;
+}
+
+#Test_Core6{
+    background-image: url(./img/articles/untitled-goose-game.jpg);
+    background-size: 450px;
+}
