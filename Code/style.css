@@ -32,12 +32,16 @@ footer{
 
 /* Classes */
 
-.White_Bands{
+#Sidebar_Wrapper{
     width: 200px;
     padding: 10px;
 }
 
 /* Menu */
+
+#Header_Home {
+    position: fixed;
+}
 
 #Header_Title {
     display: flex;
