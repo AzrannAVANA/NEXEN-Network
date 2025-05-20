@@ -3,7 +3,7 @@
 body{
     display: flex;
     justify-content: space-between;
-    font-family: "Raleway", "Sans serif";
+    font-family: "Bahnschrift";
 
     margin: 0px;
 }
@@ -39,6 +39,10 @@ footer{
 
 /* Menu */
 
+#Header_Title {
+    display: flex;
+}
+
 #Sidebar_MainMenu{
     display: flex;
     
@@ -51,13 +55,23 @@ footer{
     width: 100%;
 }
 
-.Sidebar_Button{
+.SideBar_Button_Icon {
     color: white;
     background-color: #303030;
     padding: 5px;
     border-width: 0;
     border-radius: 5px;
     margin: 2px;
+}
+
+.Sidebar_Button {
+    background-color: #ffffff00;
+    border-width: 0;
+}
+
+.Sidebar_Button_Label {
+    font-size: 20px;
+    font-weight: 600;
 }
 
 /* Footer */
