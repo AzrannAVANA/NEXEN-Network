@@ -49,7 +49,6 @@ footer{
 
 #Sidebar_MainMenu{
     display: flex;
-    
 }
 
 #Sidebar_ButtonWrapper{
@@ -82,7 +81,7 @@ footer{
 
 #Footer{
     background-color: #303030;
-    color: #ffffff;
+    color: #686868;
     padding: 20px;
 }
 
