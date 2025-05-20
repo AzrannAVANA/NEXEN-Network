@@ -48,7 +48,7 @@ footer{
 }
 
 #Sidebar_MainMenu{
-    display: flex;
+    width: 250px;
 }
 
 #Sidebar_ButtonWrapper{
